@@ -32,7 +32,7 @@ function encriptador() {
         actualizarInterfaz(text, 'Encriptado', 'img/bloquear.png');
 
     } else {
-        actualizarInterfaz('Ningún mensaje fue encontrado', 'Ingrese el texto que quiere encriptar o desencriptar', '/img/muñeco.png');
+        actualizarInterfaz('Ningún mensaje fue encontrado', 'Ingrese el texto que quiere encriptar o desencriptar', 'img/muñeco.png');
     };
 };
 
