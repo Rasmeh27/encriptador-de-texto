@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header__nav">
+            <img src="img/Logo.png" alt="aluraLogo" class="nav__logo">
+            <h1 class="header__nav__titulo">Encriptador de texto</h1>
+        </nav>
+    </header>
+    <hr>
+    <main class="main">
+        <div class="bloque__main">
+            <input type="text" placeholder="Ingresa el texto aquí" class="main__input" id="input__text__encriptar"
+                oninput="validarTexto(this)">
+            <div class="encriptador__mensaje">
+                <img src="img/muñeco.png" alt="dibujo" class="img__dibujo__no__encontrado" id="resultadoImagen">
+                <h2 class="alert__mensaje">Ningún mensaje fue encontrado</h2>
+                <p class="alert__mensaje__parrafo">Ingrese el texto que quiere encriptar o desencriptar</p>
+                <button class="button__copiar" onclick="copiarTexto();">Copiar</button>
+            </div>
+        </div>
+        <div class="information"><i class="fas fa-info-circle info-icon"></i>
+            <p class="main__parrafo">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="main__div__button">
+            <button class="main__button" id="button__encriptar" onclick="encriptador();">Encriptar</button>
+            <button class="main__button" id="button__desencriptar" onclick="desencriptar();">Desencriptar</button>
+        </div>
+    </main>
+    <hr>
+    <footer class="footer">
+        <div class="footer__enlaces">
+            <a href="https://www.instagram.com/luis_h.r_/"> <img src="img/logotipo-de-instagram.png"
+                    alt="instagram"></a>
+            <a href="https://github.com/Rasmeh27"> <img src="img/github.png" alt="github"></a>
+        </div>
+        <p>Desarrollado por &copy;Luis Herasme</p>
+    </footer>
+</body>
+
+
+</html>
