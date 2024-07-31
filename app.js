@@ -48,7 +48,7 @@ function desencriptar() {
     if (text != "") {
         actualizarInterfaz(text, 'Desencriptado', 'img/candado-abierto.png');
     } else {
-        actualizarInterfaz('Ningún mensaje fue encontrado', 'Ingrese el texto que quiere encriptar o desencriptar', '/img/muñeco.png');
+        actualizarInterfaz('Ningún mensaje fue encontrado', 'Ingrese el texto que quiere encriptar o desencriptar', 'img/muñeco.png');
     };
 };
 
