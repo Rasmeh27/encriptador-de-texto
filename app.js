@@ -14,7 +14,7 @@ function validarTexto(input) {
     const textoFiltrado = textOriginal.replace(/[^a-z\s]/g, '');
 
     if (textOriginal !== textoFiltrado) {
-        alert('No se aceptan mayusculas ni acentos');
+        alert('No se aceptan mayusculas, acentos ni numeros');
         input.value = textoFiltrado;
     }
 };
